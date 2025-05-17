@@ -52,8 +52,15 @@ To build and run the project, you will need:
    ```
 
 2. Install SDL and SDL_ttf libraries. If you're on Linux, you can use:
+
+   For Debian-based distributions (Ubuntu, Debian, etc.):
    ```bash
    sudo apt-get install libsdl2-dev libsdl2-ttf-dev
+   ```
+
+   For Fedora/RHEL-based distributions:
+   ```bash
+   sudo dnf install SDL2-devel SDL2_ttf-devel pkg-config
    ```
 
 3. Build the project using the provided `Makefile`:
